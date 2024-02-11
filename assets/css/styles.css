@@ -1,0 +1,53 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  list-style: none;
+}
+:root {
+  --blue: rgb(0, 204, 255);
+}
+
+*::selection {
+  background: var(--blue);
+}
+header {
+}
+header {
+}
+nav {
+  align-items: center;
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+  background: rgb(56, 56, 56);
+  justify-content: space-between;
+  border-bottom: 3px solid var(--blue);
+  height: 100px;
+  width: 100%;
+  font-family: "lemonmilkboldita";
+  font-weight: 100;
+}
+nav > div > ul > li > a {
+  color: gray;
+}
+
+nav li {
+  display: inline;
+  margin: 20px;
+}
+
+main {
+}
+form {
+  display: flex;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+}
