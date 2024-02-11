@@ -43,7 +43,14 @@ main {
 }
 form {
   display: flex;
-  background: url("../img/Catalogue\ Jeff\ de\ Bruges\ Ecoles\ et\ Associations_Paques\ 2024_page-0001.jpg");
+}
+.bg-img {
+  background-image: url("../img/Catalogue\ Jeff\ de\ Bruges\ Ecoles\ et\ Associations_Paques\ 2024_page-0001.jpg");
+  min-width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 footer {
