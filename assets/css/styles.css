@@ -76,6 +76,10 @@ section.img-gallery-index img {
   padding: 10px;
   height: 700px;
 }
+fieldset {
+  border-radius: 20%;
+  height: 100px;
+}
 
 footer {
   position: absolute;
