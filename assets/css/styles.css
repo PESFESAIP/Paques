@@ -41,9 +41,27 @@ nav li {
 
 main {
   height: 100%;
+  display: flex;
+  width: 100%;
 }
 form {
   display: flex;
+}
+.left-index {
+  width: 30%;
+  background-color: #333;
+  color: aliceblue;
+}
+
+.img-gallery-index {
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+.column {
+  flex: 47%;
+  max-width: 50%;
 }
 .bg-img {
   background-image: url("../img/Catalogue\ Jeff\ de\ Bruges\ Ecoles\ et\ Associations_Paques\ 2024_page-0001.jpg");
@@ -52,13 +70,6 @@ form {
   background-repeat: no-repeat;
 
   position: relative;
-}
-
-section.img-gallery-index {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-  padding: 10px;
 }
 
 section.img-gallery-index img {
@@ -71,4 +82,24 @@ footer {
   bottom: 0px;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  main {
+    flex: 100%;
+    flex-direction: column;
+  }
+  .left-index {
+    width: 100%;
+  }
+  .img-gallery-index {
+    width: 100%;
+  }
 }
