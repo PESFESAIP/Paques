@@ -77,8 +77,11 @@ section.img-gallery-index img {
   height: 700px;
 }
 fieldset {
+  display: flex;
   border-radius: 20%;
   height: 100px;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
