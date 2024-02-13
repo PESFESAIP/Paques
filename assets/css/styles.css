@@ -128,3 +128,6 @@ footer {
   font-family: "lemonmilklight";
   src: url("../font/LEMONMILK-Light.otf");
 }
+span {
+  color: red;
+}
