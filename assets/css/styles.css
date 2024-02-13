@@ -5,6 +5,10 @@
 
 body {
   list-style: none;
+  font-family: "lemonmilkboldita";
+  font-weight: 100;
+  color: white;
+  text-decoration: none;
 }
 :root {
   --blue: rgb(0, 204, 255);
@@ -76,12 +80,14 @@ section.img-gallery-index img {
   padding: 10px;
   height: 700px;
 }
-fieldset {
+.fieldset {
   display: flex;
   border-radius: 20%;
-  height: 100px;
+  border: 1px solid rgb(182, 182, 182);
+  min-height: 400px;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 footer {
@@ -109,4 +115,16 @@ footer {
   .img-gallery-index {
     width: 100%;
   }
+}
+@font-face {
+  font-family: "lemonmilkregular";
+  src: url("../font/LEMONMILK-Regular.otf");
+}
+@font-face {
+  font-family: "lemonmilkboldita";
+  src: url("../font/LEMONMILK-BoldItalic.otf");
+}
+@font-face {
+  font-family: "lemonmilklight";
+  src: url("../font/LEMONMILK-Light.otf");
 }
